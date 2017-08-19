@@ -4,7 +4,8 @@ const http = require('http').Server(app);
 
 
 app.get('/', function (req, res) {
-  res.send('Hello World')
+    res.sendFile(__dirname + '/public/index.html');
+//   res.send('Hello World')
 })
 
 app.listen(8080, function(){
