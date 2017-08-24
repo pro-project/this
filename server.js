@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 const http = require('http').Server(app);
 const watson = require('watson-developer-cloud');
-// var auth = require('./auth/auth.js');
+var auth = require('./auth/auth.js');
 
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/public/main.html');

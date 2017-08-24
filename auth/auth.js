@@ -10,7 +10,7 @@ var PersonalityInsightsV3 = require('watson-developer-cloud/personality-insights
     }
     });
     personality_insights.profile({
-          text: 'text goes here',
+          text: 'text goes her',
           consumption_preferences: true
           },
           function (err, response) {
