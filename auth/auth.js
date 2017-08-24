@@ -1,7 +1,7 @@
 var PersonalityInsightsV3 = require('watson-developer-cloud/personality-insights/v3');
     var personality_insights = new PersonalityInsightsV3({
     url: "https://gateway.watsonplatform.net/personality-insights/api",
-
+    
     // username: '{username}',
      // password: '{password}',
     version_date: '2016-10-20',
